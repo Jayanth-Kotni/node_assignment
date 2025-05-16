@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                 // Modern JS
+    "module": "ESNext",                 // Use ES module syntax (import/export)
+    "moduleResolution": "node",
+    "outDir": "./dist",                 // Output to 'dist' folder
+    "rootDir": "./src",                 // Your source code folder
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*.ts"]
+}

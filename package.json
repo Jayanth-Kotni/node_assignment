@@ -1,0 +1,24 @@
+{
+  "name": "node_assignment",
+  "version": "1.0.0",
+  "description": "A Node.js TypeScript assignment using MongoDB",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "mongodb": "^6.16.0",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.18",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "type": "module"
+}
