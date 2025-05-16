@@ -198,7 +198,7 @@ export async function userRouter(req: IncomingMessage, res: ServerResponse, db: 
   // ====== PUT /users ======
   if (method === "PUT" && url === "/users") {
     let body = "";
-    req.on("data", (chunk) => {
+    req.on("data", (chunk: Buffer) => {
       body += chunk;
     });
 

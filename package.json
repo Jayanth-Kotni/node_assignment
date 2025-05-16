@@ -16,7 +16,9 @@
     "node-fetch": "^3.3.2"
   },
   "devDependencies": {
+    "@types/mongodb": "^4.0.6",
     "@types/node": "^22.15.18",
+    "@types/node-fetch": "^2.6.12",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
   },
