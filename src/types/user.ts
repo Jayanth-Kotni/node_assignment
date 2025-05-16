@@ -1,4 +1,4 @@
-import { Post } from "./post";
+import { Post } from "./post.js";
 
 export interface Geo {
   lat: string;

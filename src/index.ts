@@ -1,6 +1,6 @@
 import http, { IncomingMessage, ServerResponse } from "http";
-import { connectDB } from "./db";
-import { userRouter } from "./routes/userRoutes";
+import { connectDB } from "./db.js";
+import { userRouter } from "./routes/userRoutes.js";
 
 const PORT = process.env.PORT || 3000;
 

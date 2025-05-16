@@ -1,9 +1,9 @@
 import { IncomingMessage, ServerResponse } from "http";
 import { Db } from "mongodb";
 import fetch from "node-fetch";
-import { User } from "../types/user";
-import { Post } from "../types/post";
-import { Comment } from "../types/comment";
+import { User } from "../types/user.js";
+import { Post } from "../types/post.js";
+import { Comment } from "../types/comment.js";
 
 const cache: { [key: string]: { data: any; timestamp: number } } = {};
 const CACHE_TTL = 5 * 60 * 1000; // 5 minutes
