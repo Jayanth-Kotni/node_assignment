@@ -12,9 +12,12 @@ const PORT = process.env.PORT || 3000;
       userRouter(req, res, db);
     });
 
-    server.listen(PORT, () => {
-      console.log(`Server running at http://localhost:${PORT}`);
-    });
+server.listen({
+  port: PORT as number,
+  host: '0.0.0.0'
+}, () => {
+  console.log(`Server running on http://0.0.0.0:${PORT}`);
+});
   } catch (error) {
     console.error("Failed to start server:", error);
   }
